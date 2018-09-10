@@ -19,6 +19,7 @@ export class Provider extends Component {
       .catch(err => console.log(err));
   }
 
+
   render() {
     return (
       <Context.Provider value={this.state}>
